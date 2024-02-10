@@ -30,17 +30,21 @@ const Navbar = (): JSX.Element => {
             onClick={() => {
               setToggle(!toggle);
             }}
-            className="h-10 w-10 bg-red-400 md:hidden"
-          ></div>
+            className="flex h-8 w-8 flex-col justify-evenly md:hidden"
+          >
+            <div className="line h-0.5 w-full bg-primary"></div>
+            <div className="line h-0.5 w-full bg-primary"></div>
+            <div className="line h-0.5 w-full bg-primary"></div>
+          </div>
         </div>
         <div
-          className={`links  ${toggle ? "max-md:-mr-80" : ""} right-0 top-32 flex flex-col items-center gap-10 bg-white 
-        p-5 transition-all max-md:absolute max-md:ml-auto max-md:h-[85vh]  max-md:w-2/3 max-md:border-l md:flex-row`}
+          className={`links  ${toggle ? "translate-x-0" : "max-md:translate-x-[100vw]"} absolute right-0 z-50 flex flex-col items-center gap-10 
+        bg-white p-5 transition-all max-md:top-32 max-md:h-[90vh]  max-md:w-2/3 max-md:border-l md:relative md:flex-row`}
         >
           <Link href="/about">
             <p
               className={`font-medium ${
-                pathname === "/services" ? "text-primary" : "text-heading"
+                pathname === "/about" ? "text-primary" : "text-heading"
               } hover:text-primary`}
             >
               About
