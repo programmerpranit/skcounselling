@@ -4,7 +4,7 @@ import React from "react";
 const TopSection = (): JSX.Element => {
   return (
     <>
-      <section className="m-auto my-20 flex max-w-7xl flex-col items-center  md:flex-row">
+      <section className="m-auto mb-20 flex min-h-[80vh] max-w-7xl flex-col items-center  md:flex-row">
         <div className="p-5 md:w-1/2">
           <h1>Your Mental Health is more important than anything else</h1>
           <br />
@@ -14,7 +14,7 @@ const TopSection = (): JSX.Element => {
           <p>One of the finest counselling in Town</p>
         </div>
         <div className="p-5 md:w-1/2">
-          <Image alt="" src={"/favicon.png"} width={400} height={400} />
+          <Image alt="" src={"/images/sk19.jpg"} width={600} height={600} />
         </div>
       </section>
     </>

@@ -19,13 +19,15 @@ const Navbar = (): JSX.Element => {
     <>
       <nav className="flex flex-col justify-evenly md:flex-row">
         <div className="logo flex h-32 items-center justify-between p-5  max-md:border-b">
-          <Image
-            className="object-contain"
-            src={"/images/logo.png"}
-            alt=""
-            width={200}
-            height={100}
-          />
+          <Link href={"/"}>
+            <Image
+              className="object-contain"
+              src={"/images/logo.png"}
+              alt=""
+              width={200}
+              height={100}
+            />
+          </Link>
           <div
             onClick={() => {
               setToggle(!toggle);

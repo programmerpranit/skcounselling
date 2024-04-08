@@ -23,9 +23,8 @@ html {
 
 :root {
   --primary: #008080;
-  --secondary: #E51D36;
+  --secondary: #e51d36;
   --text: #213127;
-  
 }
 
 a {
@@ -99,5 +98,4 @@ button {
     line-height: 1.75;
     letter-spacing: 1px;
   }
-
 }

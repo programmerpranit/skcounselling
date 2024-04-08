@@ -18,12 +18,7 @@ const AboutPage = (): JSX.Element => {
         <br />
         <div className="flex flex-col items-center justify-center md:flex-row">
           <div className="p-5 md:w-1/2">
-            <Image
-              src={"/images/square-placeholder.jpg"}
-              width={400}
-              height={400}
-              alt=""
-            />
+            <Image src={"/images/sk11.jpg"} width={400} height={400} alt="" />
           </div>
           <div className="p-5 text-left md:w-1/2 ">
             <h2>Modern Equipment & Tests</h2>
