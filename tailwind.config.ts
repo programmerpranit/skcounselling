@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#008080",
+        primary: "#CFF4EC",
         secondary: "#E51D36",
         heading: "#213127",
         // skyblue: '#daf0ff',

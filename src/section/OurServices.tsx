@@ -4,7 +4,7 @@ const OurServices = (): JSX.Element => {
   return (
     <>
       <div className="bg-primary p-5 md:p-10">
-        <h2 className=" text-center text-white">Our Services</h2>
+        <h2 className=" text-center ">Our Services</h2>
         <div className="mx-auto flex max-w-7xl flex-wrap justify-center pt-10 ">
           <Service
             title="Counselling"
@@ -46,8 +46,8 @@ const Service = ({
   desc: string;
 }): JSX.Element => {
   return (
-    <div className="h-80 p-5 md:w-1/3">
-      <div className="rounded-xl bg-white bg-opacity-60 p-10  ">
+    <div className="p-5 md:w-1/3">
+      <div className=" h-full rounded-xl bg-white bg-opacity-60 p-10 ">
         <h4 className=" overflow-ellipsis pb-5 text-2xl leading-tight">
           {title}
         </h4>

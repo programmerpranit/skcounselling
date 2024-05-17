@@ -6,13 +6,13 @@ const WhyUs = (): JSX.Element => {
     <>
       <section className="bg-primary p-5 py-10">
         <div className="m-auto my-10 flex max-w-7xl flex-col items-center ">
-          <h2 className="w-full text-center text-white">Why SK Counselling?</h2>
+          <h2 className="w-full text-center">Why SK Counselling?</h2>
           <br />
-          <p className="text-center text-white">
+          <p className="text-center ">
             Your mental health is more important than anything else
           </p>
           <div className="mt-10 flex flex-col justify-center md:flex-row">
-            <div className="flex flex-col items-center p-2 text-white md:w-1/3">
+            <div className="flex flex-col items-center p-2  md:w-1/3">
               <Image
                 alt=""
                 src={"/images/expert.png"}
@@ -26,7 +26,7 @@ const WhyUs = (): JSX.Element => {
                 We have certified experts who can guide you.
               </p>
             </div>
-            <div className="flex flex-col items-center p-2 text-white md:w-1/3">
+            <div className="flex flex-col items-center p-2  md:w-1/3">
               <Image
                 alt=""
                 src={"/images/heart.png"}
@@ -40,7 +40,7 @@ const WhyUs = (): JSX.Element => {
                 We are known for quality service in town.
               </p>
             </div>
-            <div className="flex flex-col items-center p-2 text-white md:w-1/3">
+            <div className="flex flex-col items-center p-2  md:w-1/3">
               <Image
                 alt=""
                 src={"/images/price.png"}
